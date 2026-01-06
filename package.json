@@ -1,0 +1,19 @@
+{
+  "name": "minecraft-afk-bot",
+  "version": "1.0.0",
+  "description": "24/7 Minecraft AFK Bot with Web Interface",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mineflayer": "^4.20.1",
+    "mineflayer-auto-eat": "^3.3.2",
+    "prismarine-viewer": "^1.33.0",
+    "socket.io": "^4.7.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
